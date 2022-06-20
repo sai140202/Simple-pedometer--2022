@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "335392361183",
+    "project_id": "healthify-df54b",
+    "storage_bucket": "healthify-df54b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335392361183:android:e1e9f2c14c7646b991b76a",
+        "android_client_info": {
+          "package_name": "com.example.healthify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335392361183-dg01k9b4i80du6b8v8d3rka223hisn79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KOL5LXhvFKnTTC1_7GZp0c-jYWewXgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335392361183-dg01k9b4i80du6b8v8d3rka223hisn79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335392361183:android:babff990d848b13691b76a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335392361183-dg01k9b4i80du6b8v8d3rka223hisn79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KOL5LXhvFKnTTC1_7GZp0c-jYWewXgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335392361183-dg01k9b4i80du6b8v8d3rka223hisn79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
