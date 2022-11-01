@@ -34,10 +34,7 @@ public class MainActivity extends AppCompatActivity {
     TextView distanceInMetres;
     TextView caloriesBurnt;
     ProgressBar pBar;
-
     MyDatabase db;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,9 +49,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
-
-
-
 
 
         listView = findViewById(R.id.listView);
@@ -104,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
                 SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
                 sdf.setTimeZone(TimeZone.getTimeZone("IST"));
                 String dateNow=sdf.format(new Date());
-                //String datenow=new SimpleDateFormat("E,d MM YYYY").format(Calendar.getInstance().getTime());
                 db.writeTo(dateNow,(int)(STEPS*0.762),(float)((int)(STEPS*0.762)*0.76));
 
                 writeHandler.postDelayed(this,3600000);

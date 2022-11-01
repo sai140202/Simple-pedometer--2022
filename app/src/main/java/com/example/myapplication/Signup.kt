@@ -23,7 +23,6 @@ class Signup : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-//        setContentView(R.layout.activity_signup)
 
 
         val button = findViewById<Button>(R.id.button)

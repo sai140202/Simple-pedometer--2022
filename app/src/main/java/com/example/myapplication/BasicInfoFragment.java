@@ -118,39 +118,7 @@ public class BasicInfoFragment extends Fragment {
             }
         });
 
-        /* ---- BMI Calculation ---- */
-//        final TextView bmicalc = (TextView) rootView.findViewById(R.id.bmi);
-//        final TextView bmires = (TextView) rootView.findViewById(R.id.bmiresult);
-//        ImageView bmiImage = (ImageView) rootView.findViewById(R.id.bmiimage);
-//        bmiImage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                try {
-//                    if(weightET.getText().toString() != "" || heightET.getText().toString() != "") {
-//                        Log.d("In try Block","");
-//                        Float bmi = ((Float.parseFloat(weightET.getText().toString())) * 10000) / ((Float.parseFloat(heightET.getText().toString())) * (Float.parseFloat(heightET.getText().toString())));
-//                        bmi = Float.parseFloat(String.format("%.2f", bmi));
-//                        Log.d("BMI is", bmi.toString());
-//                        bmicalc.setText(bmi.toString());
-//                        if (bmi < 18.5) {
-//                            bmires.setText("Under Weight");
-//                        } else if (bmi > 18.5 && bmi < 24.99) {
-//                            bmires.setText("Normal Weight");
-//                        } else if (bmi > 25 && bmi < 29.99) {
-//                            bmires.setText("Over Weight");
-//                        } else {
-//                            bmires.setText("Obesity");
-//                        }
-//                    }
-//                }
-//                catch (Exception ex){
-//                    Log.d("In Catch Block","");
-//                    Toast toast = Toast.makeText(getActivity(), "Forgot to enter height or weight?", Toast.LENGTH_LONG);
-//                    toast.show();
-//                }
-//            }
-//        });
+
 
         return rootView;
     }

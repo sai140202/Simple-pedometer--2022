@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +33,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 
         TextView calorie=row.findViewById(R.id.listCalorie);
         calorie.setText(calories[position]);
+
 
         return row;
     }
